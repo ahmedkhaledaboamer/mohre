@@ -1,0 +1,17 @@
+export const nationalities: {code: string;ar: string;en: string;}[] = [
+{ code: 'AE', ar: 'الإمارات', en: 'UAE' },
+{ code: 'IN', ar: 'الهند', en: 'India' },
+{ code: 'PK', ar: 'باكستان', en: 'Pakistan' },
+{ code: 'PH', ar: 'الفلبين', en: 'Philippines' },
+{ code: 'EG', ar: 'مصر', en: 'Egypt' },
+{ code: 'JO', ar: 'الأردن', en: 'Jordan' },
+{ code: 'SY', ar: 'سوريا', en: 'Syria' },
+{ code: 'LB', ar: 'لبنان', en: 'Lebanon' },
+{ code: 'IQ', ar: 'العراق', en: 'Iraq' },
+{ code: 'SD', ar: 'السودان', en: 'Sudan' },
+{ code: 'NP', ar: 'نيبال', en: 'Nepal' },
+{ code: 'BD', ar: 'بنغلاديش', en: 'Bangladesh' },
+{ code: 'NG', ar: 'نيجيريا', en: 'Nigeria' },
+{ code: 'DE', ar: 'ألمانيا', en: 'Germany' },
+{ code: 'RU', ar: 'روسيا', en: 'Russia' },
+{ code: 'GB', ar: 'المملكة المتحدة', en: 'United Kingdom' }];
