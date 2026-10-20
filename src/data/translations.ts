@@ -1,7 +1,7 @@
 /** Shared UI dictionary: [Arabic, English]. Page-specific copy uses the tr(ar, en) helper. */
 export const dictionary: Record<string, [string, string]> = {
   // App
-  'app.name': ['الوفاق', 'Al Wifaq'],
+  'app.name': ['تطوير', 'Tatweer'],
   'app.tagline': ['لخدمات رجال الأعمال', 'Business Services'],
 
   // Navigation groups

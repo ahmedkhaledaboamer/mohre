@@ -6,16 +6,19 @@ import { useSettings } from '../../hooks/useApi';
 import type { Invoice, Payment, Receipt } from '../../types/finance';
 import { lineTotals, type InvoiceView } from '../../utils/finance';
 import { DEMO_PRICE_LABEL } from '../../data/pricing';
+import { FlagStripe, LogoMark } from '../brand/Logo';
 
 function Letterhead({ title, number, dateIso }: {title: string;number: string;dateIso: string;}) {
   const { tr, date } = useI18n();
   const settings = useSettings();
   const s = settings.data;
   return (
+    <>
+    <FlagStripe className="mb-4 h-1.5 rounded-full" />
     <header className="flex flex-wrap items-start justify-between gap-4 border-b-2 border-navy pb-4">
       <div>
         <div className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-base font-bold text-white">و</span>
+          <LogoMark size={44} />
           <div>
             <p className="text-base font-bold">{s ? tr(s.companyNameAr, s.companyNameEn) : ''}</p>
             <p className="text-[11px] text-muted">{s?.address}</p>
@@ -30,7 +33,8 @@ function Letterhead({ title, number, dateIso }: {title: string;number: string;da
         <p className="mt-1 text-sm"><Ltr className="font-semibold">{number}</Ltr></p>
         <p className="text-xs text-muted">{date(dateIso)}</p>
       </div>
-    </header>);
+    </header>
+    </>);
 
 }
 

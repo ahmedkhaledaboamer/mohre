@@ -5,7 +5,7 @@ import { seedTransactions } from './transactions';
 import { seedAccounts, seedExpenses, seedInvoices, seedPayments, seedReceipts, seedSuppliers, seedTransfers } from './finance';
 import { defaultSettings, seedActivity, seedDocuments, seedTasks } from './misc';
 
-export const SCHEMA_VERSION = 3;
+export const SCHEMA_VERSION = 4;
 
 /** Builds a fresh, deep-cloned demo database from the seed files. */
 export function buildSeed(): DbShape {

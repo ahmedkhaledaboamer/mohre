@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { PanelRightCloseIcon, PanelRightOpenIcon, PanelLeftCloseIcon, PanelLeftOpenIcon, XIcon } from 'lucide-react';
 import { navigation } from '../../data/navigation';
+import { LogoMark } from '../brand/Logo';
 
 const ALL_PATHS = navigation.flatMap((g) => g.items.map((i) => i.to));
 /** Exact matching when a more specific nav item exists (e.g. /transactions vs /transactions/new). */
@@ -16,10 +17,10 @@ function Brand({ collapsed }: {collapsed: boolean;}) {
   const { t } = useI18n();
   return (
     <div className="flex h-14 items-center gap-2.5 px-4">
-      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary text-sm font-bold text-white">و</span>
+      <LogoMark size={34} />
       {!collapsed &&
       <div className="min-w-0 leading-tight">
-          <p className="truncate text-sm font-semibold text-white">{t('app.name')}</p>
+          <p className="truncate text-[15px] font-extrabold tracking-tight text-white">{t('app.name')}</p>
           <p className="truncate text-[11px] text-white/50">{t('app.tagline')}</p>
         </div>
       }

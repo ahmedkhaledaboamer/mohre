@@ -116,12 +116,12 @@ export const seedActivity: ActivityEntry[] = [
 sort((a, b) => b.at.localeCompare(a.at));
 
 export const defaultSettings: AppSettings = {
-  companyNameAr: 'مركز الوفاق لخدمات رجال الأعمال',
-  companyNameEn: 'Al Wifaq Business Services Center',
+  companyNameAr: 'تطوير لخدمات رجال الأعمال',
+  companyNameEn: 'Tatweer Business Services',
   trn: '100555123400003',
   address: 'شارع المرقبات، ديرة، دبي — الإمارات العربية المتحدة',
   phone: '+971 4 555 0100',
-  email: 'hello@wifaq-demo.ae',
+  email: 'hello@tatweer-demo.ae',
   vatRate: 5,
   invoiceTerms: DEFAULT_INVOICE_TERMS,
   reminderDays: { passport: 180, emiratesId: 30, residence: 30, license: 30, deadline: 3 },

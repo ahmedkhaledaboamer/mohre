@@ -8,11 +8,11 @@ import { createRng } from '../../utils/random';
 /** All names, phone numbers, passports and license IDs below are fictional. */
 
 export const seedUsers: User[] = [
-{ id: 'u-owner', nameAr: 'خالد المنصوري', nameEn: 'Khalid Al Mansouri', email: 'owner@wifaq-demo.ae', mobile: '+971 50 555 0101', role: 'owner', branchId: 'deira', active: true, createdAt: '2024-01-10' },
-{ id: 'u-acc', nameAr: 'ريم الحمادي', nameEn: 'Reem Al Hammadi', email: 'accounts@wifaq-demo.ae', mobile: '+971 50 555 0102', role: 'accountant', branchId: 'deira', active: true, createdAt: '2024-02-01' },
-{ id: 'u-pro1', nameAr: 'أحمد يوسف', nameEn: 'Ahmed Youssef', email: 'ahmed.pro@wifaq-demo.ae', mobile: '+971 50 555 0103', role: 'pro', branchId: 'deira', active: true, createdAt: '2024-02-15' },
-{ id: 'u-pro2', nameAr: 'سارة إبراهيم', nameEn: 'Sara Ibrahim', email: 'sara.pro@wifaq-demo.ae', mobile: '+971 50 555 0104', role: 'pro', branchId: 'business-bay', active: true, createdAt: '2024-03-01' },
-{ id: 'u-mgr', nameAr: 'فاطمة النعيمي', nameEn: 'Fatima Al Nuaimi', email: 'manager@wifaq-demo.ae', mobile: '+971 50 555 0107', role: 'manager', branchId: 'deira', active: true, createdAt: '2024-01-15' }];
+{ id: 'u-owner', nameAr: 'خالد المنصوري', nameEn: 'Khalid Al Mansouri', email: 'owner@tatweer-demo.ae', mobile: '+971 50 555 0101', role: 'owner', branchId: 'deira', active: true, createdAt: '2024-01-10' },
+{ id: 'u-acc', nameAr: 'ريم الحمادي', nameEn: 'Reem Al Hammadi', email: 'accounts@tatweer-demo.ae', mobile: '+971 50 555 0102', role: 'accountant', branchId: 'deira', active: true, createdAt: '2024-02-01' },
+{ id: 'u-pro1', nameAr: 'أحمد يوسف', nameEn: 'Ahmed Youssef', email: 'ahmed.pro@tatweer-demo.ae', mobile: '+971 50 555 0103', role: 'pro', branchId: 'deira', active: true, createdAt: '2024-02-15' },
+{ id: 'u-pro2', nameAr: 'سارة إبراهيم', nameEn: 'Sara Ibrahim', email: 'sara.pro@tatweer-demo.ae', mobile: '+971 50 555 0104', role: 'pro', branchId: 'business-bay', active: true, createdAt: '2024-03-01' },
+{ id: 'u-mgr', nameAr: 'فاطمة النعيمي', nameEn: 'Fatima Al Nuaimi', email: 'manager@tatweer-demo.ae', mobile: '+971 50 555 0107', role: 'manager', branchId: 'deira', active: true, createdAt: '2024-01-15' }];
 
 
 /** Staff who execute transactions in the demo data. */
